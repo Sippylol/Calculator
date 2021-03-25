@@ -1,0 +1,14 @@
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.CircleArc.resources
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.Circumference.resources
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.Chord.resources
+C:\Users\Abdulrahman\source\repos\Calculator\Calculator\obj\Debug\Calculator.Solve.resources
