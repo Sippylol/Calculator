@@ -6,7 +6,7 @@ try
 	// Checks if input != null
 	if (!isset($_POST["email"]) || !isset($_POST["password"]))
 	{
-		die(header("Location: logInStudentError.php"));//die("One or more of the requirements was not fulfilled!");
+		die(header("Location: logInStudentError.php"));
 	}
 
 	// Array of characters to check input for
@@ -19,7 +19,7 @@ try
 	// Check if input is valid
 	if ($email == "" || $password == "" || strlen($password) < 8 || strlen($email) < 10)
 	{
-		die(header("Location: logInStudentError.php"));//die("The inputs contain contains harmful characters!");
+		die(header("Location: logInStudentError.php"));
 	}
 
 	// Check if email input exists in database
@@ -27,7 +27,7 @@ try
 	$result = mysqli_query($connection, $sql_check_email);
 	if (mysqli_num_rows($result) <= 0)
 	{
-		die(header("Location: logInStudentError.php"));//die("This email doesn't exist! Try to sign up instead");
+		die(header("Location: logInStudentError.php"));
 	}
 
 	$info = mysqli_fetch_array($result);
@@ -51,11 +51,11 @@ try
 	}
 	else
 	{
-		die(header("Location: logInStudentError.php"));//die("<h1>The password is incorrect!</h1>");
+		die(header("Location: logInStudentError.php"));
 	}
 }
 catch(Exception $e)
 {
-	die(header("Location: logInStudentError.php"));//die("Something went wrong!");
+	die(header("Location: logInStudentError.php"));
 }
 ?>

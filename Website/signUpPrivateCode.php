@@ -7,12 +7,12 @@ try
 	// If statement checks if form has been filled
 	if (!isset($_POST["email"]) || !isset($_POST["fName"]) || !isset($_POST["lName"]) || !isset($_POST["password"]) || !isset($_POST["repeatPassword"]))
 	{
-		die(header("Location: signUpPrivateError.php"));//die("Please fill in the form to continue.");
+		die(header("Location: signUpPrivateError.php"));
 	}
 	// Checks if password and repeatPassword matches
 	if ($_POST["password"] != $_POST["repeatPassword"])
 	{
-		die(header("Location: signUpPrivateError.php"));//die("Passwords do not match.");
+		die(header("Location: signUpPrivateError.php"));
 	}
 
 	$email_check = $_POST["email"];
@@ -22,7 +22,7 @@ try
 
 	if (mysqli_num_rows($result_check_email) > 0)
 	{
-		die(header("Location: signUpPrivateError.php"));//die("Email already exists in database. Try logging in!");
+		die(header("Location: signUpPrivateError.php"));
 	}
 
 	// Define input as variables & remove harmful characters
@@ -38,7 +38,7 @@ try
 	// Check input for harmful characters
 	if (str_replace($remove, "", $fName) != $fName || str_replace($remove, "", $lName) != $lName || str_replace($remove, "", $email) != $email || str_replace($remove, "", $password) != $password)
 	{
-		die(header("Location: signUpPrivateError.php"));//die("The inputs contain contains harmful characters!");
+		die(header("Location: signUpPrivateError.php"));
 	}
 
 	// Now check if input has enough characters
@@ -65,7 +65,7 @@ try
 	}
 	else
 	{
-		die(header("Location: signUpPrivateError.php"));//die("Error: ".$sql_create_account."<br>".mysqli_error($connection));
+		die(header("Location: signUpPrivateError.php"));
 	}
 
 	mysqli_close($connection);

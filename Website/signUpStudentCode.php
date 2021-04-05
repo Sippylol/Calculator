@@ -7,12 +7,12 @@ try
 	// If statement checks if form has been filled
 	if (!isset($_POST["email"]) || !isset($_POST["fName"]) || !isset($_POST["lName"]) || !isset($_POST["eName"]) || !isset($_POST["password"]) || !isset($_POST["repeatPassword"]))
 	{
-		die(header("Location: signUpStudentError.php"));//die("Please fill in the form to continue.");
+		die(header("Location: signUpStudentError.php"));
 	}
 	// Checks if password and repeatPassword matches
 	if ($_POST["password"] != $_POST["repeatPassword"])
 	{
-		die(header("Location: signUpStudentError.php"));//die("Passwords do not match.");
+		die(header("Location: signUpStudentError.php"));
 	}
 
 	$email_check = $_POST["email"];
@@ -22,7 +22,7 @@ try
 
 	if (mysqli_num_rows($result_check_email) > 0)
 	{
-		die(header("Location: signUpStudentError.php"));//die("Email already exists in database. Try logging in!");
+		die(header("Location: signUpStudentError.php"));
 	}
 
 	// Define input as variables & remove harmful characters
@@ -39,13 +39,13 @@ try
 	// Check input for harmful characters
 	if (str_replace($remove, "", $fName) != $fName || str_replace($remove, "", $lName) != $lName || str_replace($remove, "", $eName) != $eName || str_replace($remove, "", $email) != $email || str_replace($remove, "", $password) != $password)
 	{
-		die(header("Location: signUpStudentError.php"));//die("The inputs contain contains harmful characters!");
+		die(header("Location: signUpStudentError.php"));
 	}
 
 	// Now check if input has enough characters
 	if ($email == "" || $password == "" || $fName == "" || $lName == "" || $eName == "" || strlen($password) < 8 || strlen($email) < 10 || strlen($fName) < 2 || strlen($lName) < 2 || strlen($eName) < 2)
 	{
-		die(header("Location: signUpStudentError.php"));//die("First, last, and education name must be at least 2 characters, password must be at least 8 characters, and email must be at least 10 characters.");
+		die(header("Location: signUpStudentError.php"));
 	}
 
 	// Hash password
@@ -66,7 +66,7 @@ try
 	}
 	else
 	{
-		die(header("Location: signUpStudentError.php"));//die("Error: ".$sql_create_account."<br>".mysqli_error($connection));
+		die(header("Location: signUpStudentError.php"));
 	}
 
 	mysqli_close($connection);
