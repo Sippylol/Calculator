@@ -1,0 +1,12 @@
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\bin\Debug\MohsenCalculator.exe.config
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\bin\Debug\MohsenCalculator.exe
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\bin\Debug\MohsenCalculator.pdb
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.csprojAssemblyReference.cache
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.main.resources
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.Properties.Resources.resources
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.csproj.GenerateResource.cache
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.exe
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.pdb
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.Confirm.resources
+C:\Users\Abdulrahman\source\repos\MohsenCalculator\MohsenCalculator\obj\Debug\MohsenCalculator.Help.resources
